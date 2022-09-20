@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+html, body {
+	font-family: 'Gowun Dodum', sans-serif;
+}
+
+.box {
+	width: 50%;
+	height: 55%;
+	border: 1px solid white;
+	border-radius: 10px;
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+.box div{
+	margin:15px;
+}
+
+
+table {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+tr, th {
+	text-align: center;
+	border: 1px solid white;
+}
+
+tr {
+	margin: 20px;
+}
+
+th {
+	padding: 12px 50px;
+}
+
+a {
+	text-decoration: none;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin-top: 5px;
+	margin:15px;
+}
